@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+    FILE*fp=fopen ("hello world", "w");
+    if(fp==NULL){
+        printf ("hello!\n");
+        return 1;
+    }
+}
